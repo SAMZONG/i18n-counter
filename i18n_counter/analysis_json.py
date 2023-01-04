@@ -17,6 +17,7 @@ function: count the number of translated strings in i18n files
 
 import json
 import os
+import sys
 
 
 def test_translate(text, i=0):
@@ -30,7 +31,7 @@ def test_translate(text, i=0):
     return i
 
 
-def project_translate_score(project_name, source_lang, target_lang):
+def translate_score(project_name, source_lang, target_lang):
     project_path = '/Users/samzonglu/Git/daocloud/frontend/{}/src/locales/{}/'.format(project_name, source_lang)
 
     os.chdir(project_path)
@@ -71,8 +72,8 @@ if __name__ == '__main__':
     for project in projects:
         source_lang = 'zh-CN'
         target_lang = 'en-US'
-        source_counter, source_files, target_counter, target_files = project_translate_score(project, source_lang,
-                                                                                             target_lang)
+        source_counter, source_files, target_counter, target_files = translate_score(project, source_lang,
+                                                                                     target_lang)
         print('------------------------------')
         print('项目名称: ', project)
         print(source_lang, '文件数: ', source_files)
@@ -85,3 +86,5 @@ if __name__ == '__main__':
         print(target_lang, '->', source_lang, '字符串翻译率: ',
               str('%.2f' % (target_counter / source_counter * 100)) + '%')
         print('')
+
+    print(sys.argv)
