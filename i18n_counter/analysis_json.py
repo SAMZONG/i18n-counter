@@ -35,7 +35,7 @@ def project_translate_score(project_name, source_lang, target_lang):
 
     os.chdir(project_path)
 
-    source_count = source_files = target_count = target_files = 0
+    source_counter = source_files = target_counter = target_files = 0
 
     for root, path, files in os.walk(project_path):
         for file in files:
@@ -46,16 +46,16 @@ def project_translate_score(project_name, source_lang, target_lang):
                 if os.path.exists(source_path):
                     with open(source_path, 'r') as f:
                         source_data = json.load(f)
-                    source_count += test_translate(source_data)
+                    source_counter += test_translate(source_data)
                     source_files += 1
 
                 if os.path.exists(target_path):
                     with open(target_path, 'r') as f:
                         target_data = json.load(f)
-                    target_count += test_translate(target_data)
+                    target_counter += test_translate(target_data)
                     target_files += 1
 
-    return source_count, source_files, target_count, target_files
+    return source_counter, source_files, target_counter, target_files
 
 
 if __name__ == '__main__':
@@ -71,16 +71,17 @@ if __name__ == '__main__':
     for project in projects:
         source_lang = 'zh-CN'
         target_lang = 'en-US'
-        zh_counter, zh_files, en_counter, en_files = project_translate_score(project, source_lang,
-                                                                             target_lang)
+        source_counter, source_files, target_counter, target_files = project_translate_score(project, source_lang,
+                                                                                             target_lang)
         print('------------------------------')
         print('项目名称: ', project)
-        print(source_lang, '文件数: ', zh_files)
-        print(source_lang, '字符串数: ', zh_counter)
+        print(source_lang, '文件数: ', source_files)
+        print(source_lang, '字符串数: ', source_counter)
         print('')
-        print(target_lang, '文件数: ', en_files)
-        print(target_lang, '字符串数: ', en_counter)
+        print(target_lang, '文件数: ', target_files)
+        print(target_lang, '字符串数: ', target_counter)
         print('')
-        print(target_lang, '->', source_lang, '文件翻译率: ', str('%.2f' % (en_files / zh_files * 100)) + '%')
-        print(target_lang, '->', source_lang, '字符串翻译率: ', str('%.2f' % (en_counter / zh_counter * 100)) + '%')
+        print(target_lang, '->', source_lang, '文件翻译率: ', str('%.2f' % (target_files / source_files * 100)) + '%')
+        print(target_lang, '->', source_lang, '字符串翻译率: ',
+              str('%.2f' % (target_counter / source_counter * 100)) + '%')
         print('')
