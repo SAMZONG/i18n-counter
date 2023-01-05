@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "i18n_counter"
+name = "i18n-counter"
 version = "0.0.1"
-description = "This is a template repository for Python projects that use Poetry for their dependency management."
-authors = ["i18n-counter <fsamzong.lu@gmail.com>"]
+description = "i18n-counter_mac_arm64 is a tool to count the number of translated strings in a project."
+authors = ["i18n-counter <samzong.lu@gmail.com>"]
 repository = "https://github.com/samzong/i18n-counter"
 documentation = "https://samzong.github.io/i18n-counter/"
 readme = "README.md"
 packages = [
-  {include = "i18n_counter"}
+    { include = "i18n_counter" }
 ]
 
 [tool.poetry.dependencies]
@@ -22,7 +22,7 @@ tox = "^3.25.1"
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.2"
 mkdocs-material = "^8.5.10"
-mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+mkdocstrings = { extras = ["python"], version = "^0.19.0" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

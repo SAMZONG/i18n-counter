@@ -2,47 +2,76 @@
 
 [![Release](https://img.shields.io/github/v/release/samzong/i18n-counter)](https://img.shields.io/github/v/release/samzong/i18n-counter)
 [![Build status](https://img.shields.io/github/actions/workflow/status/samzong/i18n-counter/main.yml?branch=main)](https://github.com/samzong/i18n-counter/actions/workflows/main.yml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/samzong/i18n-counter/branch/main/graph/badge.svg)](https://codecov.io/gh/samzong/i18n-counter)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)
-[![License](https://img.shields.io/github/license/samzong/i18n-counter)](https://img.shields.io/github/license/samzong/i18n-counter)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This is a template repository for Python projects that use Poetry for their dependency management.
+
+## introduce
+
+i18n-counter is a tool to count the number of translated strings in a project.
+
+please make sure that the language has exists before using this tool.
 
 - **Github repository**: <https://github.com/samzong/i18n-counter/>
-- **Documentation** <https://samzong.github.io/i18n-counter/>
 
-## Getting started with your project
+## Usage
 
-First, create a repository on GitHub with the same name as this project, and then run the following commands:
-
-``` bash
-git init -b main
-git add .
-git commit -m "init commit"
-git remote add origin git@github.com:samzong/i18n-counter.git
-git push -u origin main
-```
-
-Finally, install the environment and the pre-commit hooks with 
+i18n-counter locales_path source_language target_language
 
 ```bash
-make install
+i18n-counter locales zh-CN en-US
 ```
 
-You are now ready to start development on your project! The CI/CD
-pipeline will be triggered when you open a pull request, merge to main,
-or when you create a new release.
+### Good Example
 
-To finalize the set-up for publishing to PyPi or Artifactory, see
-[here](https://fpgmaas.github.io/cookiecutter-poetry/features/publishing/#set-up-for-pypi).
-For activating the automatic documentation with MkDocs, see
-[here](https://fpgmaas.github.io/cookiecutter-poetry/features/mkdocs/#enabling-the-documentation-on-github).
-To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/codecov/).
+```bash
+~ ./i18n-counter ~/Git/daocloud/frontend/kairship-ui/src/locales en-US zh-CN
 
-## Releasing a new version
+project:  /Users/samzonglu/Git/daocloud/frontend/kairship-ui/src/locales
+en-US files:  82
+en-US strings:  883
 
+zh-CN files:  82
+zh-CN strings:  881
 
+zh-CN -> en-US file translation rate:  100.00%
+zh-CN -> en-US string translation rate:  99.77%
 
----
+{'source_files': 82, 'source_counter': 883, 'target_files': 82, 'target_counter': 881}
+```
 
-Repository initiated with [fpgmaas/cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
+```bash
+~ ./i18n-counter /app/src/locales zh-CN en-US
+
+project:  /Users/samzonglu/Git/daocloud/frontend/kairship-ui/src/locales
+zh-CN files:  82
+zh-CN strings:  881
+
+en-US files:  82
+en-US strings:  883
+
+en-US -> zh-CN file translation rate:  100.00%
+en-US -> zh-CN string translation rate:  100.23%
+
+{'source_files': 82, 'source_counter': 881, 'target_files': 82, 'target_counter': 883}
+
+```
+
+### Bad Example
+
+```bash
+~ ./i18n-counter /app/src/locales en-US
+{'tips': 'Usage: i18n-counter locales_path source_language target_language'}
+```
+
+```bash
+~ ./i18n-counter /app/src/locales en-US zh-CN a
+{'tips': 'Usage: i18n-counter locales_path source_language target_language'}
+```
+
+```bash
+~ ./i18n-counter /notfound/path en-US zh-CN
+/Users/samzonglu/Git/samzong/i18n-counter/.venv/bin/python /Users/samzonglu/Git/samzong/i18n-counter/i18n_counter/i18n-counter.py locales zh-CN en-US 
+[Errno 2] No such file or directory: 'locales/zh-CN/'
+{'tips': 'No translation files found.'}
+```
