@@ -29,7 +29,9 @@ jobs:
         run: |
           # stop the build if there are Python syntax errors or undefined names
           pyinstaller i18n_counter/i18n-counter.py --onefile --name i18n-counter
-          zip -r $GITHUB_WORKSPACE/i18n-counter.zip $GITHUB_WORKSPACE/dist/
+          ls -al
+          pwd
+          zip -r i18n-counter.zip dist/
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
