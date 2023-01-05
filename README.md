@@ -1,7 +1,7 @@
 # i18n-counter
 
 [![Release](https://img.shields.io/github/v/release/samzong/i18n-counter)](https://img.shields.io/github/v/release/samzong/i18n-counter)
-[![Build status](https://img.shields.io/github/actions/workflow/status/samzong/i18n-counter/main.yml?branch=main)](https://github.com/samzong/i18n-counter/actions/workflows/main.yml?query=branch%3Amain)
+[![Build](https://github.com/SAMZONG/i18n-counter/actions/workflows/run_builds.yaml/badge.svg)](https://github.com/SAMZONG/i18n-counter/actions/workflows/run_builds.yaml)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
