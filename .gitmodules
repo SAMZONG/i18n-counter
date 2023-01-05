@@ -1,0 +1,45 @@
+[submodule "modules/amamba-ui"]
+	path = modules/kairship-ui
+	url = ../../frontend-engineering/amamba-ui.git
+[submodule "modules/kairship-ui"]
+	path = modules/kairship-ui
+	url = ../../frontend-engineering/kairship-ui.git
+[submodule "modules/kpanda-ui"]
+	path = modules/kpanda-ui
+	url = ../../frontend-engineering/kpanda-ui.git
+[submodule "modules/skoala-ui"]
+	path = modules/skoala-ui
+	url = ../../frontend-engineering/skoala-ui.git
+[submodule "modules/mspider-ui"]
+	path = modules/mspider-ui
+	url = ../../frontend-engineering/mspider-ui.git
+[submodule "modules/ghippo-ui"]
+	path = modules/ghippo-ui
+	url = ../../frontend-engineering/ghippo-ui.git
+[submodule "modules/mcamel-mysql-ui"]
+	path = modules/mcamel-mysql-ui
+	url = ../../frontend-engineering/mcamel/mcamel-mysql-ui.git
+[submodule "modules/mcamel-kafka-ui"]
+	path = modules/mcamel-kafka-ui
+	url = ../../frontend-engineering/mcamel/mcamel-kafka-ui.git
+[submodule "modules/mcamel-redis-ui"]
+	path = modules/mcamel-redis-ui
+	url = ../../frontend-engineering/mcamel/mcamel-redis-ui.git
+[submodule "modules/mcamel-rabbitmq-ui"]
+	path = modules/mcamel-rabbitmq-ui
+	url = ../../frontend-engineering/mcamel/mcamel-rabbitmq-ui.git
+[submodule "modules/mcamel-elasticsearch-ui"]
+	path = modules/mcamel-elasticsearch-ui
+	url = ../../frontend-engineering/mcamel/mcamel-elasticsearch-ui.git
+[submodule "modules/mcamel-minio-ui"]
+	path = modules/mcamel-minio-ui
+	url = ../../frontend-engineering/mcamel/mcamel-minio-ui.git
+[submodule "modules/kangaroo-ui"]
+	path = modules/kangaroo-ui
+	url = ../../frontend-engineering/kangaroo-ui.git
+[submodule "modules/spidernet-ui"]
+	path = modules/spidernet-ui
+	url = ../../frontend-engineering/spidernet-ui.git
+[submodule "modules/ipavo-ui"]
+	path = modules/ipavo-ui
+	url = ../../frontend-engineering/ipavo-ui.git

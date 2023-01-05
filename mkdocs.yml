@@ -5,19 +5,11 @@ site_description: This is a template repository for Python projects that use Poe
 site_author: i18n-counter
 edit_uri: edit/main/docs/
 repo_name: samzong/i18n-counter
-copyright: Maintained by <a href="https://samzong.com">Florian</a>.
+copyright: Maintained by <a href="https://github.com/samzong/">Samzong lu</a>.
 
 nav:
   - Home: index.md
-  - Modules: modules.md
-plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-            setup_commands:
-                - import sys
-                - sys.path.append('../')
+
 theme:
   name: material
   feature:

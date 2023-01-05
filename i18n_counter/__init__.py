@@ -1,0 +1,1 @@
+from i18n_counter.i18n_counter import translate_score

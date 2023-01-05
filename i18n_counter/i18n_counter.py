@@ -66,10 +66,10 @@ def translate_score(source_folder, source_lang, target_lang):
 
 
 def show_tips():
-    return {"tips": 'Usage: i18n-counter_mac_arm64 locales_path source_language target_language'}
+    return {"tips": 'Usage: i18n-counter locales_path source_language target_language'}
 
 
-def i18n_counter() -> dict:
+def i18n_counter():
     if len(sys.argv) > 1:
         if sys.argv[1] == '-h':
             return show_tips()
