@@ -1,5 +1,5 @@
 [submodule "modules/amamba-ui"]
-	path = modules/kairship-ui
+	path = modules/amamba-ui
 	url = ../../frontend-engineering/amamba-ui.git
 [submodule "modules/kairship-ui"]
 	path = modules/kairship-ui
