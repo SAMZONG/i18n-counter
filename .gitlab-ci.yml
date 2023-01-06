@@ -8,7 +8,7 @@ default:
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  CI_DEBUG_TRACE: "true"
+  # CI_DEBUG_TRACE: "true"
 
 pages:
   only:
