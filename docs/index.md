@@ -30,6 +30,6 @@
 ## 添加项目的方式
 
 - git clone 本仓库后，为本仓库增加 submodule
-- Daoclou 内部仓库需要增加时，
+- DaoCloud 内部仓库需要增加时
   - 修改 .gitmodule 将项目路径中 `git@gitlab.daocloud.cn/ndx` 替换为 `../..`
 - 创建 PR 并提交

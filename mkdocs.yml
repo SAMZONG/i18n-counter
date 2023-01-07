@@ -1,6 +1,6 @@
 site_name: i18n-counter
-repo_url: https://github.com/samzong/i18n-counter
-site_url: https://samzong.github.io/i18n-counter
+repo_url: https://gitlab.daocloud.cn/ndx/product/frontend-i18n-counter
+site_url: https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/
 site_description: This is a template repository for Python projects that use Poetry for their dependency management.
 site_author: i18n-counter
 edit_uri: edit/main/docs/
