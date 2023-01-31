@@ -21,6 +21,7 @@ pages:
     - whoami
     - ls /
     - pip install anybadge -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+    - git submodule update --remote --merge
     - pwd && cd /builds/ndx/product/frontend-i18n-counter/ && python i18n_counter/dao-i18n-badges.py # build project i18n badges svg
     - mkdocs build -f mkdocs.yml -d public/ # build to public path
 

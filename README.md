@@ -75,3 +75,9 @@ en-US -> zh-CN string translation rate:  100.23%
 [Errno 2] No such file or directory: 'locales/zh-CN/'
 {'tips': 'No translation files found.'}
 ```
+
+## Update submodules
+
+```bash
+git submodule update --remote --merge
+```
