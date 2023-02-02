@@ -19,6 +19,7 @@ please make sure that the language has exists before using this tool.
 i18n-counter locales_path source_language target_language
 
 ```bash
+chmod +x i18n-counter
 i18n-counter locales zh-CN en-US
 ```
 
