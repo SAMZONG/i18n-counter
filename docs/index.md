@@ -5,9 +5,12 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)](https://img.shields.io/github/commit-activity/m/samzong/i18n-counter)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+## 去做翻译吧
+
+- <http://172.30.45.199:8888/>
+- 工具维护：卢传佳
 
 ## 前端项目翻译进度
-
 
 | 项目                      | 翻译进度                                                                                              |
 |-------------------------|---------------------------------------------------------------------------------------------------|
@@ -27,6 +30,7 @@
 | ipavo-ui                | ![ipavo-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/ipavo-ui.svg) |
 | spidernet-ui            | ![spidernet-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/spidernet-ui.svg) |
 | kangaroo-ui             | ![kangaroo-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kangaroo-ui.svg) |
+| kcoral-ui             | ![kcoral-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kcoral-ui.svg) |
 
 ## 添加项目的方式
 
@@ -37,7 +41,7 @@ git submodule add git@gitlab.daocloud.cn:ndx/frontend-engineering/insight-ui.git
 ```
 
 - DaoCloud 内部仓库需要增加后
-  - 修改 `.gitmodule` 将项目路径中 `git@gitlab.daocloud.cn/ndx` 替换为 `../..`
+    - 修改 `.gitmodule` 将项目路径中 `git@gitlab.daocloud.cn/ndx` 替换为 `../..`
 - 创建 PR 并提交
 
 ## Update submodules

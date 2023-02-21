@@ -46,3 +46,6 @@
 [submodule "modules/insight-ui"]
 	path = modules/insight-ui
 	url = ../../frontend-engineering/insight-ui.git
+[submodule "modules/kcoral-ui"]
+	path = modules/kcoral-ui
+	url = ../../frontend-engineering/kcoral-ui.git
