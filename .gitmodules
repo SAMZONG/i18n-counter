@@ -43,3 +43,6 @@
 [submodule "modules/ipavo-ui"]
 	path = modules/ipavo-ui
 	url = ../../frontend-engineering/ipavo-ui.git
+[submodule "modules/insight-ui"]
+	path = modules/insight-ui
+	url = git@gitlab.daocloud.cn:ndx/frontend-engineering/insight-ui.git

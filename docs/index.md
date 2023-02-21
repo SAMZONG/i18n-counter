@@ -11,21 +11,22 @@
 
 | 项目                      | 翻译进度                                                                                              |
 |-------------------------|---------------------------------------------------------------------------------------------------|
-| amamba-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/amamba-ui.svg) |
+| amamba-ui               | ![amamba-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/amamba-ui.svg) |
 | kpanda-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kpanda-ui.svg) |
-| kairship-ui             | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kairship-ui.svg) |
-| mspider-ui              | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mspider-ui.svg) |
-| skoala-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/skoala-ui.svg) |
-| ghippo-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/ghippo-ui.svg) |
-| mcamel-elasticsearch-ui | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-elasticsearch-ui.svg) |
-| mcamel-kafka-ui         | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-kafka-ui.svg) |
-| mcamel-mysql-ui         | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-mysql-ui.svg) |
-| mcamel-redis-ui         | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-redis-ui.svg) |
-| mcamel-minio-ui         | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-minio-ui.svg) |
-| mcamel-rabbitmq-ui      | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-rabbitmq-ui.svg) |
-| ipavo-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/ipavo-ui.svg) |
-| spidernet-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/spidernet-ui.svg) |
-| kangaroo-ui               | ![kpanda-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kangaroo-ui.svg) |
+| insight-ui              | ![insight-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/insight-ui.svg) |
+| kairship-ui             | ![kairship-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kairship-ui.svg) |
+| mspider-ui              | ![mspider-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mspider-ui.svg) |
+| skoala-ui               | ![skoala-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/skoala-ui.svg) |
+| ghippo-ui               | ![ghippo-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/ghippo-ui.svg) |
+| mcamel-elasticsearch-ui | ![mcamel-elasticsearch-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-elasticsearch-ui.svg) |
+| mcamel-kafka-ui         | ![mcamel-kafka-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-kafka-ui.svg) |
+| mcamel-mysql-ui         | ![mcamel-mysql-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-mysql-ui.svg) |
+| mcamel-redis-ui         | ![mcamel-redis-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-redis-ui.svg) |
+| mcamel-minio-ui         | ![mcamel-minio-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-minio-ui.svg) |
+| mcamel-rabbitmq-ui      | ![mcamel-rabbitmq-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/mcamel-rabbitmq-ui.svg) |
+| ipavo-ui                | ![ipavo-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/ipavo-ui.svg) |
+| spidernet-ui            | ![spidernet-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/spidernet-ui.svg) |
+| kangaroo-ui             | ![kangaroo-ui](https://ndx.gitpages.daocloud.io/product/frontend-i18n-counter/badges/kangaroo-ui.svg) |
 
 ## 添加项目的方式
 
