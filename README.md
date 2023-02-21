@@ -76,6 +76,12 @@ en-US -> zh-CN string translation rate:  100.23%
 {'tips': 'No translation files found.'}
 ```
 
+## add submodule
+
+```bash
+git submodule add git@gitlab.daocloud.cn:ndx/frontend-engineering/insight-ui.git modules/insight-ui
+```
+
 ## Update submodules
 
 ```bash
